@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer-elementos.css">
+    <link rel="stylesheet" href="css/cabecera-elementos.css">
+    <link rel="stylesheet" href="css/productos.css">
+    
+    <title>Desafio E-commerce Alura</title>
+</head>
+<body>
+    <header class="cabecera">
+        <div class="cabecera-logo__div">
+            <div class="cabecera-logo__divImg">
+            <img class="cabecera-logo__img" src="img/gamepad-solid.svg" alt="Imagen Gamepad">
+            </div>
+            <div class="cabecera-logo_DivLabel">
+                <label class="cabecera-logo__label"><span class="cabecera-logo__span">Alura</span>Geek</label>
+            </div>
+            
+            <div class="cabecera-logo-DivInput">
+                <input type="search" class="cabecera-logo__input" placeholder="¿Que desea buscar?">
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+            </div>
+
+            <div class="cabecera-logo__menu">
+                <input type="button" class="cabecera--menu" value="Menu Administrador">
+            </div>
+        
+        </div>
+    </header>
+
+    <!-- <nav class="navegador">
+        
+    </nav> -->
+
+    <main class="principal__producto">
+        <section class="contenido-principal">
+            <div class="cont__princi--producto">
+                <h1 class=" titulo-principal contenido__producto--titulo">Agregar Nuevo Producto</h1>
+                <form method="post">
+                    <div class="url">
+                        <input type="text" class="input__producto" required placeholder="URL de imagen">
+                    </div>
+
+                    <div class="categoria">
+                        <input type="text" class="input__producto" required placeholder="Categoria">
+                    </div>
+
+                    <div class="producto">
+                        <input type="text" class="input__producto" required placeholder="Nombre del producto">
+                    </div>
+
+                    <div class="categoria">
+                        <input type="text" class="input__producto" required placeholder="Precio del producto">
+                    </div>
+
+                    <div class="descripcion">
+                        <input type="text" class="input__producto" required placeholder="Descripcion del producto">
+                    </div>  
+                    
+                    <input type="button" class="formulario-enviar" value="Entrar">
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+
+        <div class="pie-pagina__contenedorAmbos">
+            <div class="footer-logo">
+                <div class="cabecera-logo__divImg">
+                    <img class="cabecera-logo__img" src="img/gamepad-solid.svg" alt="Imagen Gamepad">
+                    </div>
+                    <div class="cabecera-logo_DivLabel">
+                        <label class="cabecera-logo__label"><span class="cabecera-logo__span">Alura</span>Geek</label>
+                    </div>    
+            </div>
+
+
+            <div class="footer-navegacion">
+                <nav>
+                    <ul class="navegacion-menu">
+                        <li class="navegacion-elemento"><a class="navegacion-enlace" href="#">Politica de privacidad</a></li>
+                        <li class="navegacion-elemento"><a class="navegacion-enlace" href="#">Quienes somos</a></li>
+                        <li class="navegacion-elemento"><a class="navegacion-enlace" href="#">Programa de fidelidad</a></li>
+                        <li class="navegacion-elemento"><a class="navegacion-enlace" href="#">Nuestras tiendas</a></li>
+                        <li class="navegacion-elemento"><a class="navegacion-enlace" href="#">quiero se franquiciado</a></li>
+                        <li class="navegacion-elemento"><a class="navegacion-enlace" href="#">Anuncie aqui</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </div>   
+    
+    
+        <div class="footer-formulario">
+            <h2>Hable con nosotros</h2>
+            <input type="text" class="footer-formulario__nombre footer-formulario__input" placeholder="Nombre">
+            <textarea cols="30" rows="10" class="footer-formulario__mensaje footer-formulario__input" placeholder="Escribe tu mensaje"></textarea>
+            <!-- <input type="text" class="footer-formulario__mensaje footer-formulario__input" placeholder="Escriba su mensaje"> -->
+            <input type="button" class="footer-formulario__boton" value="Enviar mensaje">
+        </div>
+
+        <div class="footer-div">
+            <p class="footer-div__span"><span>Creado por Kevin Degrandez </span> &copy;Copyright Alura Latam - 2022.</p>
+        </div>
+        
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>

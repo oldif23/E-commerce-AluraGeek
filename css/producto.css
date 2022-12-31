@@ -1,0 +1,39 @@
+.contenido-principal__vistaProducto{
+    display: flex;
+    padding: 64px 136.5px 64px 136.5px;
+}
+
+.contenido-principal__vistaImagen{
+    padding-right: 16px;
+}
+
+
+.contenido-principal__tituloProducto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.contenido-principal__precio{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 19px;
+}
+
+
+.contenido-principal__parrafo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.contenido-principal__vistaTexto{
+    width: 560px;
+    height: 114px;
+}

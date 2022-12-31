@@ -1,0 +1,95 @@
+.pie-pagina{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    padding-top: 25px;
+    background-color: #a6e094;
+}
+
+.pie-pagina__contenedorAmbos{
+    grid-area: 1 / 1 / 2 / 3;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 32px;
+}
+
+.footer-logo{
+    display: flex;
+}
+
+.navegacion-menu{
+    text-decoration: none;
+    list-style: none;
+}
+
+ .footer-logo{
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    justify-content: center;
+    padding-left: 135px;
+}
+
+.footer-navegacion{
+    grid-area: 1 / 2 / 2 / 3;
+} 
+
+
+.navegacion-elemento{
+    padding-bottom: 15px;
+}
+
+.navegacion-enlace{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-formulario{
+    grid-area: 1 / 3 / 2 / 4;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.footer-formulario__input{
+    margin-bottom: 8px;
+}
+
+.footer-formulario__nombre{
+    width: 420px;
+    height: 25px;
+}
+
+.footer-formulario__mensaje{
+    width: 420px;
+    height: 150px;
+}
+
+.footer-formulario__boton{
+    width: 150px;
+    height: 50px;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+}
+
+.footer-formulario__boton:hover{
+    cursor: pointer;
+    font-size: 19px;
+    background-color: #5c6bc0;
+}
+
+.footer-div{
+    grid-area: 2 / 1 / 3 / 4;
+    padding-top: 25px;
+}
+.footer-div__span{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 35px;
+}
+
+

@@ -1,0 +1,352 @@
+.cabecera-logo__img{
+    width: 80px;
+    height: 90px;
+}      
+
+.cabecera-logo__div{
+    padding: 50px 0 0 75px; /*arriba, derecha, abajo, izquierda*/
+    display: flex;
+    justify-content: center;
+    background-color: #fffeea;
+    /* background-image: linear-gradient(to right top, #817a7f, #8d7889, #987595, #a073a2, #a771b0); */
+}
+
+/* .cabecera-logo__divImg{
+
+} */
+
+.cabecera-logo_DivLabel{
+    padding-top: 35px;
+    padding-left: 8px;
+}
+
+.cabecera-logo__label{
+    font-size: 25px;
+}
+
+.cabecera-logo__span{
+    color: #448aff;
+}
+
+.cabecera-logo-DivInput{
+    position: relative;
+    width: 271px;
+    padding: 40px 0  0  150px;
+}
+
+.cabecera-logo__input{
+    width: 340px;
+    height: 34px;
+    border-radius: 8px;
+}
+
+.input-icon {
+	color: #191919;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 455px;
+	top: 59%;
+	transform: translateY(-50%);
+}
+
+.cabecera-logo__menu{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-left: 200px;
+    /* padding-bottom: 6px; */
+}
+
+.cabecera--menu{
+    width: 183px;
+    height: 51px;
+    font-size: 24px;
+    color: #2A7AE4;
+    background-color: white;
+    border: 1px solid #2A7AE4;
+}
+
+.cabecera--menu:hover{
+    font-size: 30px;
+    color: #9c27b0;
+    border: 1px solid #9c27b0;
+    cursor: pointer;
+}
+
+.DivOfertas{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.imagen--ofertas{
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+
+.DivOfertas__texto{
+    position: absolute;
+    padding-top: 65px;
+    padding-right: 601px;
+}
+
+
+.DivOfertas__titulo{
+    color: #d5d568;
+    font-size: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.DivOfertas__parrafo{
+    color: white;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.DivOfertas__boton{
+    width: 129px;
+    height: 51px;
+    background: #2A7AE4;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.DivOfertas__boton:hover{
+    font-size: 19px;
+    cursor: pointer;
+    background-color: #6b56de;
+    transition: 0.2s;
+}
+
+/*Media querys resoluciones mayores a 1440px*/
+@media (min-width:1440px){ 
+    .cabecera-logo__div{
+        /*padding: 50px 0 0 370px;*/ /*arriba, derecha, abajo, izquierda*/
+        display: flex;
+        align-items: center;
+    }
+
+
+
+}
+
+@media (max-width:820px){ 
+    .cabecera {
+        /* width: 768px; */
+        width: auto;
+    }
+
+    .cabecera-logo__div{
+        /* width: 768px; */
+        padding-bottom: 15px;
+    }
+
+    .cabecera-logo-DivInput {
+        width: 271px;
+        padding: 40px 0 0 40px;
+    }
+
+    .cabecera-logo__input {
+        width: 272px;
+        height: 34px;
+    }
+
+    .input-icon {
+        left: 280px;
+        top: 75%;
+    }
+
+    .cabecera-logo__img {
+        width: 28.41px;
+        height: 28px;
+        padding-top: 35px;
+    }
+
+    .cabecera--menu {
+        width: 166px;
+        height: 40px;
+    }
+
+    .DivOfertas {
+        width: auto;
+    }
+
+    .imagen--ofertas {
+        width: 100%;
+        height: 352px;
+        display: block;
+        background-size: cover;
+    }
+
+    .DivOfertas__texto {
+        position: absolute;
+        padding-top: 65px;
+        padding-right: 0px;
+    }
+
+    .cabecera-logo__menu {
+        padding-top: 31px;
+        padding-left: 50px;
+
+    }
+
+    /*login*/
+    .cabecera-logo__input {
+        width: 272px;
+        height: 40px;
+    }
+
+    .cabecera-logo__div {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 16px;
+    }
+
+    .principal {
+        width: auto;
+    }  
+    
+    .pie-pagina {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 16px;
+        grid-row-gap: 0px;
+        padding-top: 25px;
+        background-color: #a6e094;
+        width: auto;
+        /* height: 364px; */
+    }
+
+    .pie-pagina__contenedorAmbos{
+        grid-area: 1 / 1 / 2 / 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15px;
+        padding-top: 0;
+    }
+
+    .footer-logo {
+        justify-content: initial;
+        padding-left: 15px;
+    }
+
+
+
+    .footer-formulario {
+        grid-area: 1 / 2 / 2 / 3;
+        display: flex;
+        flex-direction: column;
+        /* margin-right: 15px; */
+    }
+
+    .cabecera--menu {
+        font-size: 14px;
+        width: 154px;
+        height: 40px;
+    }
+
+    .cabecera--menu:hover {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:540px){
+    .cabecera-logo__input {
+        width: 165px;
+    }
+
+    .input-icon {
+        display: none;
+    }
+    .pie-pagina {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+        padding-top: 25px;
+        background-color: #a6e094;
+        width: auto;
+        /* height: 364px; */
+    }
+
+    .pie-pagina__contenedorAmbos {
+        grid-area: 1 / 1 / 2 / 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15px;
+        padding-top: 0;
+    }
+
+    .footer-formulario {
+        grid-area: 2 / 1 / 3 / 4;
+        display: flex;
+        flex-direction: column;
+        /* margin-right: 15px; */
+        background-color: #a6e094;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .footer-div {
+        grid-area: 3 / 1 / 4 / 2;
+        padding-top: 25px;
+    }
+
+    .footer-formulario__nombre {
+        width: 328px;
+        height: 56px;
+    }
+
+    .footer-formulario__mensaje {
+        width: 328px;
+        height: 82px;
+    }
+
+    .footer-div__span {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        font-size: 12px;
+        padding-top: 0;
+        width: auto;
+    }
+
+    .imagen--ofertas {
+        height: 192px;
+    }
+
+    .DivOfertas__titulo {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .DivOfertas__parrafo {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .DivOfertas__boton {
+        width: 118px;
+        height: 40px;
+    }
+
+    .DivOfertas__texto {
+        padding-top: 0px;
+    }
+}
